@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Search functionality" duration-ms="16668" started-at="2019-10-27T13:51:36 GMT" finished-at="2019-10-27T13:51:52 GMT">
+    <groups>
+    </groups>
+    <test name="Search for webdriver" duration-ms="3947" started-at="2019-10-27T13:51:36 GMT" finished-at="2019-10-27T13:51:40 GMT">
+      <class name="com.ducksearch.tests.SearchPageTest">
+        <test-method status="PASS" signature="setUpDriver(org.testng.ITestContext)[pri:0, instance:com.ducksearch.tests.SearchPageTest@56f4468b]" name="setUpDriver" is-config="true" duration-ms="1381" started-at="2019-10-27T13:51:36 GMT" finished-at="2019-10-27T13:51:37 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e397ed7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.ducksearch.tests.SearchPageTest@56f4468b]" name="searchTest" duration-ms="2470" started-at="2019-10-27T13:51:37 GMT" finished-at="2019-10-27T13:51:39 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webdriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ducksearch.tests.SearchPageTest@56f4468b]" name="tearDown" is-config="true" duration-ms="62" started-at="2019-10-27T13:51:39 GMT" finished-at="2019-10-27T13:51:40 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ducksearch.tests.SearchPageTest -->
+    </test> <!-- Search for webdriver -->
+    <test name="Search for kubernetes" duration-ms="10256" started-at="2019-10-27T13:51:36 GMT" finished-at="2019-10-27T13:51:46 GMT">
+      <class name="com.ducksearch.tests.SearchPageTest">
+        <test-method status="PASS" signature="setUpDriver(org.testng.ITestContext)[pri:0, instance:com.ducksearch.tests.SearchPageTest@7f9a81e8]" name="setUpDriver" is-config="true" duration-ms="7789" started-at="2019-10-27T13:51:36 GMT" finished-at="2019-10-27T13:51:43 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@490ab905]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.ducksearch.tests.SearchPageTest@7f9a81e8]" name="searchTest" duration-ms="2398" started-at="2019-10-27T13:51:43 GMT" finished-at="2019-10-27T13:51:46 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kubernetes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ducksearch.tests.SearchPageTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="64" started-at="2019-10-27T13:51:46 GMT" finished-at="2019-10-27T13:51:46 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ducksearch.tests.SearchPageTest -->
+    </test> <!-- Search for kubernetes -->
+    <test name="Search for docker" duration-ms="16668" started-at="2019-10-27T13:51:36 GMT" finished-at="2019-10-27T13:51:52 GMT">
+      <class name="com.ducksearch.tests.SearchPageTest">
+        <test-method status="PASS" signature="setUpDriver(org.testng.ITestContext)[pri:0, instance:com.ducksearch.tests.SearchPageTest@36d4b5c]" name="setUpDriver" is-config="true" duration-ms="14220" started-at="2019-10-27T13:51:36 GMT" finished-at="2019-10-27T13:51:50 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3f49dace]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.ducksearch.tests.SearchPageTest@36d4b5c]" name="searchTest" duration-ms="2383" started-at="2019-10-27T13:51:50 GMT" finished-at="2019-10-27T13:51:52 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ducksearch.tests.SearchPageTest@36d4b5c]" name="tearDown" is-config="true" duration-ms="61" started-at="2019-10-27T13:51:52 GMT" finished-at="2019-10-27T13:51:52 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ducksearch.tests.SearchPageTest -->
+    </test> <!-- Search for docker -->
+  </suite> <!-- Test Search functionality -->
+</testng-results>

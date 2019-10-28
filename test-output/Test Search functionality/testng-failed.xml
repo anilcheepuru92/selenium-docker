@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Search functionality]">
+  <test thread-count="5" name="Search for java(failed)">
+    <parameter name="searchString" value="java"/>
+    <classes>
+      <class name="com.ducksearch.tests.SearchPageTest">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="searchTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ducksearch.tests.SearchPageTest -->
+    </classes>
+  </test> <!-- Search for java(failed) -->
+  <test thread-count="5" name="Search for qa(failed)">
+    <parameter name="searchString" value="qa"/>
+    <classes>
+      <class name="com.ducksearch.tests.SearchPageTest">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="searchTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ducksearch.tests.SearchPageTest -->
+    </classes>
+  </test> <!-- Search for qa(failed) -->
+  <test thread-count="5" name="Search for webdriver(failed)">
+    <parameter name="searchString" value="webdriver"/>
+    <classes>
+      <class name="com.ducksearch.tests.SearchPageTest">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="searchTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ducksearch.tests.SearchPageTest -->
+    </classes>
+  </test> <!-- Search for webdriver(failed) -->
+  <test thread-count="5" name="Search for docker(failed)">
+    <parameter name="searchString" value="docker"/>
+    <classes>
+      <class name="com.ducksearch.tests.SearchPageTest">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="searchTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ducksearch.tests.SearchPageTest -->
+    </classes>
+  </test> <!-- Search for docker(failed) -->
+  <test thread-count="5" name="Search for kubernetes(failed)">
+    <parameter name="searchString" value="kubernetes"/>
+    <classes>
+      <class name="com.ducksearch.tests.SearchPageTest">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="searchTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ducksearch.tests.SearchPageTest -->
+    </classes>
+  </test> <!-- Search for kubernetes(failed) -->
+</suite> <!-- Failed suite [Test Search functionality] -->
