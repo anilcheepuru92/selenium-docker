@@ -129,15 +129,3 @@ Configure a Jenkins agent with Java, Maven, Docker, and the `dockerhub` username
 ## Test reports
 
 TestNG report files are generated in the `output/` directory when the suites are run. Open [`output/index.html`](output/index.html) in a browser to inspect the report when the report has been generated locally or copied from a test run.
-
-## Contributing
-
-1. Create a feature branch.
-2. Make the change and add or update tests where appropriate.
-3. Run `mvn clean package`.
-4. Confirm the relevant TestNG suite and reports pass.
-5. Open a pull request with a concise description of the change.
-
-## License
-
-No license file is currently included in this repository. Add a license before distributing or reusing the project outside its intended context.
